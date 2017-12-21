@@ -1,10 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Google Sarcasm",
-  "version": "0.6.4",
-  "background": {
-    "scripts": ["background.js"]
-  },
+  "version": "1.0",
   "content_scripts": [
     {
       "matches": [
