@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Google Sarcasm",
+  "version": "0.6.4",
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*","http://*/*"
+      ],
+      "js": ["content.js"]
+    }
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  }
+}
